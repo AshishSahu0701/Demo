@@ -3,3 +3,9 @@ resource "azurerm_resource_group" "RG" {
     location = "Central india"
   
 }
+
+resource "azurerm_resource_group" "RG1" {
+    name = "rg-prod1"
+    location = "Central india"
+  
+}
