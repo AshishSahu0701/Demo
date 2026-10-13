@@ -20,3 +20,9 @@ resource "azurerm_resource_group" "RG3" {
     name = "rg-dev"
     location = "East us"
 }
+
+
+resource "azurerm_resource_group" "sa" {
+    name = "rg-deasav"
+    location = "East us"
+}
