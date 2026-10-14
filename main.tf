@@ -26,3 +26,8 @@ resource "azurerm_resource_group" "sa" {
     name = "rg-deasav"
     location = "East us"
 }
+
+resource "azurerm_resource_group" "saa" {
+    name = "rg-raghav"
+    location = "East us"
+}
