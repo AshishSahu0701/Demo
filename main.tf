@@ -28,6 +28,6 @@ resource "azurerm_resource_group" "sa" {
 }
 
 resource "azurerm_resource_group" "saa" {
-    name = "rg-raghav"
+    name = "rg-ragddhav"
     location = "East us"
 }
